@@ -3,6 +3,7 @@ import express from 'express'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
+
 config({ path: path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../.env') })
 import { startResearch, subscribeToRun } from './runner.js'
 
